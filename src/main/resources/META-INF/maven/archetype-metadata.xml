@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archetype-descriptor name="default">
+	<fileSet encoding="UTF-8">
+		<directory>src</directory>
+		<includes>
+			<include>**/**</include>
+		</includes>
+	</fileSet>
+</archetype-descriptor>
