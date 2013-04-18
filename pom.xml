@@ -4,10 +4,19 @@
 
 	<groupId>com.mcclellan</groupId>
 	<artifactId>scala-eclipse-archetype</artifactId>
-	<version>0.3.1-SNAPSHOT</version>
+	<version>0.3.2-SNAPSHOT</version>
 	<packaging>maven-archetype</packaging>
 
 	<build>
+		<resources>
+			<resource>
+				<directory>${basedir}/src/main/resources</directory>
+				<excludes>
+					<exclude>**/empty</exclude>
+				</excludes>
+			</resource>
+		</resources>
+
 		<extensions>
 			<extension>
 				<groupId>org.apache.maven.archetype</groupId>
