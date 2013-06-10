@@ -8,7 +8,7 @@ To install this archetype use the command
 
 Once installed you can generate by typing
 
-	mvn archetype:generate -DarchetypeGroupId=com.mcclellan -DarchetypeArtifactId=scala-eclipse-archetype -DarchetypeVersion=0.3.2-SNAPSHOT
+	mvn archetype:generate -DarchetypeGroupId=com.mcclellan -DarchetypeArtifactId=scala-eclipse-archetype -DarchetypeVersion=0.3.3-SNAPSHOT
 
 This will create a new directory with the artifactId given by you as the name, it will have standard maven directory layout in it.
 You can generate all your Eclipse metadata so that it can be imported by using the command from inside your newly created project

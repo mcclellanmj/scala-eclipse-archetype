@@ -2,7 +2,7 @@
 <archetype-descriptor xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0 http://maven.apache.org/xsd/archetype-descriptor-1.0.0.xsd" name="scala-eclipse"
     xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <fileSets>
+  <fileSets>
 		<fileSet encoding="UTF-8">
 			<directory>src</directory>
 			<includes>
@@ -10,4 +10,10 @@
 			</includes>
 		</fileSet>
 	</fileSets>
+
+  <requiredProperties>
+    <requiredProperty key="scalaVersion">
+      <defaultValue>2.10.2</defaultValue>
+    </requiredProperty>
+  </requiredProperties>
 </archetype-descriptor>
